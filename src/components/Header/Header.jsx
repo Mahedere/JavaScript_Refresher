@@ -1,4 +1,5 @@
-import image from '../assets/react-core-concepts.png'
+import image from '../../assets/react-core-concepts.png'
+import './Header.css'
 const reactDescriptions=['Fundamental','Crucial','Core']
 function getRandomInt(max){
   return Math.floor(Math.random()*(max+1))
