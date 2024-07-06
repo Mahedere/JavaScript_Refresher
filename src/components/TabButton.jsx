@@ -1,9 +1,7 @@
- export default function TabButton({children}){
-    function handleClick(){
-        console.log("hi")
-    }
+ export default function TabButton({children,onSelect}){
+  
 return(
 
-    <button onClick={handleClick}>{children}</button>
+    <button onClick={onSelect}>{children}</button>
 )
  }
