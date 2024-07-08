@@ -1,5 +1,5 @@
 import { CORE_CONCEPTS } from "../../data";
-import CoreConcept from "../CoreConcepts";
+import CoreConcept from "../CoreConcepts/CoreConcepts";
 export default function Core() {
     return (
         <section id="core-concepts">
